@@ -9,8 +9,8 @@ const Contact = props => {
     setShowContact(showContact => !showContact);
   };
 
-  const handleDelete = () => {
-    props.handleDelete;
+  const handleDeleteClick = () => {
+    props.handleDelete(id);
   };
 
   return (
@@ -25,7 +25,7 @@ const Contact = props => {
         <i
           className="fas fa-times"
           style={{ cursor: "pointer", float: "right", color: "red" }}
-          onClick={handleDelete}
+          onClick={handleDeleteClick}
         />
       </h4>
 

@@ -25,7 +25,7 @@ const Contacts = () => {
   ]);
 
   const deleteContact = id => {
-    console.log(id);
+    //console.log(id);
   };
 
   return (
