@@ -43,8 +43,8 @@ Contact.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
-  handleShowContact: PropTypes.func.isRequired,
-  handleDeleteClick: PropTypes.func.isRequired
+  handleShowContact: PropTypes.func,
+  handleDeleteClick: PropTypes.func
 };
 
 export default Contact;
